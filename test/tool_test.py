@@ -42,7 +42,7 @@ class TestLocalStorage(unittest.TestCase):
         command = storage.convert_to_command_by_name("Telegram_message")
         self.assertEqual(command.command_name, "Telegram_message")
         self.assertEqual(command.group, "Telegram")
-        self.assertEqual(command.file, "message")
+        self.assertEqual(command.file, "message.lnk")
         self.assertEqual(command.description, "Telegram message")
         self.assertEqual(command.section, "")
 
